@@ -38,7 +38,7 @@ constexpr gpio_num_t kDisplayPinMosi = GPIO_NUM_11;  // LCD_DIN
 constexpr gpio_num_t kDisplayPinSclk = GPIO_NUM_10;  // LCD_CLK
 
 // Backlight exists on your board:
-constexpr gpio_num_t kDisplayPinBl   = GPIO_NUM_40;
+constexpr gpio_num_t kDisplayPinBl = GPIO_NUM_40;
 
 constexpr int kDisplayWidth = 240;
 constexpr int kDisplayHeight = 240;
@@ -49,8 +49,8 @@ constexpr bool kDisplayInvert = true;
 constexpr bool kDisplayRgbOrder = true;
 
 // --- Radar center defaults (overridden via WiFi setup portal) ---
-constexpr double kDefaultRadarLat = 52.3676;
-constexpr double kDefaultRadarLon = 4.9041;
+constexpr double kDefaultRadarLat = 52.342778;
+constexpr double kDefaultRadarLon = 5.1494444;
 
 /** Poll adsb.fi (API public limit: 1 req/s). */
 constexpr unsigned long kAdsbFetchIntervalMs = 3000;
