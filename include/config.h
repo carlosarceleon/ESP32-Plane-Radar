@@ -24,7 +24,7 @@ constexpr unsigned long kWifiDownGraceMs = 4000;
 constexpr unsigned long kWifiReconnectIntervalMs = 15000;
 
 // --- BOOT button (ESP32-C3 Super Mini, active LOW) ---
-constexpr gpio_num_t kBootPin = GPIO_NUM_NC;
+constexpr gpio_num_t kBootPin = GPIO_NUM_0;
 constexpr unsigned long kBootResetHoldMs = 3000UL;
 /** Ignore BOOT taps shorter than this (debounce). */
 constexpr unsigned long kBootTapMinMs = 40UL;
